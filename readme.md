@@ -46,7 +46,7 @@ Dans cette seconde partie, nous vous demandons de programmer le jeu
     <li class="grid__item grid__item--js"></li>
     ```
 
-1. Mettez à jour le score du premier joueur.  
+1. Mettez à jour le score du premier joueur.
 
 1. Dès que le joueur a cliqué, vous devez enclencher le compte à rebours.
 
@@ -76,30 +76,30 @@ Dans cette seconde partie, nous vous demandons de programmer le jeu
 ## Terminer le jeu
 
 
-1. Si le joueur gagne avec une ligne, colonne ou diagonale de *JS* alors vous devez charger le formulaire 
+1. Si le joueur gagne avec une ligne, colonne ou diagonale de *JS* alors vous devez charger le formulaire
 
 ```html
 <form class="play-again-template_form" method="get">
-  <p class="play-again-template_form__message"><span class="play-again-template_form__message__winner play-again-template_form__message__winner--js">js</span> a gagné !</p>
-  <input class="btn play-again-template_form__submit" type="submit" value="Jouer à nouveau !">
+   <p class="play-again-template_form__message"><span class="play-again-template_form__message__winner play-again-template_form__message__winner--js">js</span> a gagné !</p>
+   <input class="btn play-again-template_form__submit" type="submit" value="Jouer à nouveau !">
 </form>
 ```
 
 
-1. Si le joueur gagne avec une ligne, colonne ou diagonale de *love* alors vous devez charger le formulaire 
+1. Si le joueur gagne avec une ligne, colonne ou diagonale de *love* alors vous devez charger le formulaire
 ```html
 <form class="play-again-template_form" method="get">
-  <p class="play-again-template_form__message"><span class="play-again-template_form__message__winner play-again-template_form__message__winner--love">love</span> a gagné !</p>
-  <input class="btn play-again-template_form__submit" type="submit" value="Jouer à nouveau !">
+   <p class="play-again-template_form__message"><span class="play-again-template_form__message__winner play-again-template_form__message__winner--love">love</span> a gagné !</p>
+   <input class="btn play-again-template_form__submit" type="submit" value="Jouer à nouveau !">
 </form>
 ```
 
-1. Si le joueur perd par manque de temps ou car toutes les cases sont remplies alors vous devez charger le formulaire 
+1. Si le joueur perd par manque de temps ou car toutes les cases sont remplies alors vous devez charger le formulaire
 
 ```html
 <form class="play-again-template_form" method="get">
-  <p class="play-again-template_form__message">Le jeu est perdu</p>
-  <input class="btn play-again-template_form__submit" type="submit" value="Jouer à nouveau !">
+   <p class="play-again-template_form__message">Le jeu est perdu</p>
+   <input class="btn play-again-template_form__submit" type="submit" value="Jouer à nouveau !">
 </form>
 ```
 
@@ -109,7 +109,7 @@ Dans cette seconde partie, nous vous demandons de programmer le jeu
 
 Organisez votre code de sorte à pouvoir recommencer infiniment. Si js perd alors c'est love qui commence la prochaine partie. Veillez à ne pas soumettre le formulaire, ce qui impliquerait de recharger la page.
 
-## Bonus 🥳 1
+## Bonus 🥳 2
 
 Dans le document HTML se trouvent 3 templates JavaScript qui contiennent chacun un formulaire différent. Dès lors, vous pouvez améliorer le point précédent en chargeant le bon formulaire à l’aide de la méthode importNode(). Attention, cette méthode retournera le formulaire si vous lui passez le bon sélecteur, il n'est pas encore inclus dans l'arbre du document. Pour ce faire, vous devez appeler une méthode telle que insertAdjacentElement().
 
