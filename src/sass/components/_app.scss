@@ -1,3 +1,5 @@
+@use "../settings/vars" as *;
+
 body {
   font-family: "Avenir Next", sans-serif;
   background: $bcg;
